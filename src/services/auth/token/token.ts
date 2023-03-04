@@ -12,7 +12,7 @@ export interface User {
 }
 
 export const defaultUser = <User>{
-  name: '',
+  name: 'Germ',
 };
 
 export const isAppReady = () => {
@@ -20,7 +20,7 @@ export const isAppReady = () => {
 };
 
 
-export function  getData  () {
+export function getData() {
   const stored = localStorage.getItem(OPTIONS_KEY);
 
   try {
