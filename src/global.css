@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  padding: 0;
-}
+
 
 :root {
   font-family: -apple-system;
